@@ -1,0 +1,71 @@
+.camel{
+    background-color: aqua;
+}
+.cham{
+    background-color:aquamarine;
+}
+.cicada{
+    background-color: blue;
+}
+.panda{
+    background-color: blueviolet;
+}
+.pigeon{
+    background-color: cyan;
+}
+.teddy{
+    background-color: lightblue;
+}
+.heading{
+    font-size: 25px;
+    font-family: 'Papyrus';
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.camel:hover img{
+    opacity: 0.33;
+}
+
+.cham:hover img{
+    opacity: 0.33;
+}
+
+.cicada:hover img{
+    opacity: 0.33;
+}
+
+.panda:hover img{
+    opacity: 0.33;
+}
+
+.pigeon:hover img{
+    opacity: 0.33;
+}
+
+.teddy:hover img{
+    opacity: 0.33;
+}
+.camel p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.camel:hover p{
+    opacity: 1;
+}
+
+.frog:hover img{
+    opacity: 0.33;
+}
+
+.dog:hover img{
+    opacity: 0.33;
+}
